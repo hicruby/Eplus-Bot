@@ -1,0 +1,8 @@
+{
+  "accept_cookies": "button:has-text('Agree')",
+  "intl_general_sales": "text=International general sales",
+  "ticket_type": "select#ticketType",
+  "ticket_qty": "input#quantity",
+  "add_to_cart": "button:has-text('Add to Cart')",
+  "checkout": "button:has-text('Checkout')"
+}

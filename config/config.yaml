@@ -1,0 +1,12 @@
+event_url: "https://eplus.tickets/en/sf/ibt/detail/0260360001-P0030083"
+go_live: "2026-01-20 15:45:00+08:00"  # ISO 格式 + 時區
+mode: "playwright"  # playwright | selenium
+ticket:
+  type: "VIP"       # 視實際 value/name 調整
+  qty: 2
+limits:
+  refresh_interval_ms: 350   # 限流：刷新或輪詢的間隔
+  max_refresh_tries: 200
+ui:
+  headless: false
+user_data_dir: "./eplus-user-data"  # Playwright 持久化登入（若需要）
