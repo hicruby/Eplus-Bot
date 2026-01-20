@@ -1,5 +1,4 @@
-
-# eplus-bot (International General Sales – 半自動化)
+# Eplus-Bot (International General Sales – 半自動化)
 > 自動化到「加入購物車/進入結帳」為止；等待室/驗證碼與付款保留人工，並採限流輪詢避免風控。
 
 ## 特色
@@ -53,6 +52,3 @@ bash playwright_py/scripts/run.sh   # 或在 Windows 執行 run.bat
 ## 設定說明
 - `config/config.yaml`：活動網址、開賣時間、票種/數量、輪詢間隔
 - `config/selectors.json`：請用 `playwright codegen` 錄到穩定 selector 後貼入
-
-## 合規
-請見 `COMPLIANCE.md`。
